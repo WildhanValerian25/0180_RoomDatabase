@@ -44,7 +44,7 @@ object DestinasiHome : DestinasiNavigasi {
     override val titleRes = R.string.app_name
 }
 
-// ⬇️ TAMBAHKAN
+//
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
@@ -86,7 +86,7 @@ fun HomeScreen(
         )
     }
 }
-// ⬆️ SAMPAI SINI
+//
 
 @Composable
 fun BodyHome(
