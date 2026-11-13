@@ -33,16 +33,60 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.pertemuan9_pam.R
+import com.example.pertemuan9pam.room.Siswa
 import com.example.pertemuan9pam.uicontroller.DestinasiNavigasi
+import com.example.pertemuan9pam.uicontroller.SiswaTopAppBar
 import com.example.pertemuan9pam.viewmodel.HomeViewModel
 import com.example.pertemuan9pam.viewmodel.PenyediaViewModel
-import com.example.pertemuan9pam.room.Siswa
-import com.example.pertemuan9pam.uicontroller.SiswaTopAppBar
 
 object DestinasiHome : DestinasiNavigasi {
     override val route = "home"
     override val titleRes = R.string.app_name
 }
+
+// ⬇️ TAMBAHKAN
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun HomeScreen(
+    navigateToItemEntry: () -> Unit,
+    modifier: Modifier = Modifier,
+    viewModel: HomeViewModel = viewModel(factory = PenyediaViewModel.Factory)
+){
+    val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
+
+    Scaffold(
+        modifier = modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
+        topBar = {
+            SiswaTopAppBar(
+                title = stringResource(DestinasiHome.titleRes),
+                canNavigateBack = false,
+                scrollBehavior = scrollBehavior
+            )
+        },
+        floatingActionButton = {
+            FloatingActionButton(
+                onClick = navigateToItemEntry,
+                shape = MaterialTheme.shapes.medium,
+                modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_large))
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Add,
+                    contentDescription = stringResource(R.string.entry_siswa)
+                )
+            }
+        },
+    ){
+            innerPadding ->
+        val uiStateSiswa by viewModel.homeUiState.collectAsState()
+        BodyHome(
+            itemSiswa = uiStateSiswa.listSiswa,
+            modifier = Modifier
+                .padding(innerPadding)
+                .fillMaxSize()
+        )
+    }
+}
+// ⬆️ SAMPAI SINI
 
 @Composable
 fun BodyHome(
