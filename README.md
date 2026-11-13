@@ -127,10 +127,4 @@ com.example.pertemuan9pam
 
 ---
 
-## 👤 Identitas
 
-| | |
-|---|---|
-| **Nama** | Nazwa Hafidzah |
-| **NIM** | `<isi NIM>` |
-| **Mata Kuliah** | Pemrograman Aplikasi Mobile (PAM) |
