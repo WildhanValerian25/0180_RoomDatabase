@@ -47,7 +47,7 @@ Melanjutkan Activity sebelumnya dengan fitur lengkap **Create, Read, Update, dan
 
 | Konfirmasi Hapus | Setelah Data Dihapus |
 |:---:|:---:|
-| <img width="230" alt="Konfirmasi hapus" src="LINK_HAPUS_1" /> | <img width="230" alt="Setelah dihapus" src="LINK_HAPUS_2" /> |
+| <img width="230" alt="Konfirmasi hapus" src="screenshots/hapus_konfirmasi.png" /> | <img width="230" alt="Setelah dihapus" src="screenshots/hapus_setelah.png" /> |
 | Tekan **Hapus** → muncul dialog *"Apakah anda yakin menghapus ini?"* → pilih **Ya** | Data terhapus dari database dan kembali ke halaman utama |
 
 </div>
@@ -166,7 +166,7 @@ com.example.pertemuan9pam
 
 1. Clone repository ini
    ```bash
-   git clone https://github.com/<username>/3NIM_RoomDatabase.git
+   git clone https://github.com/<username>/<NIM>_RoomDatabase.git
    ```
 2. Buka folder project di **Android Studio**
 3. Tunggu proses **Gradle Sync** selesai
