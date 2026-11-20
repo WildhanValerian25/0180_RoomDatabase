@@ -47,8 +47,8 @@ Melanjutkan Activity sebelumnya dengan fitur lengkap **Create, Read, Update, dan
 
 | Konfirmasi Hapus | Setelah Data Dihapus |
 |:---:|:---:|
-| <img width="477" height="587" alt="image" src="https://github.com/user-attachments/assets/ab9f9615-1a63-43ea-bf99-f3b8f2dbfedb" />
-" /> |<img width="492" height="573" alt="image" src="https://github.com/user-attachments/assets/b8d01165-f952-439c-bd85-37bc359d7efa" />
+| <img width="477" height="587" alt="image" src="https://github.com/user-attachments/assets/ab9f9615-1a63-43ea-bf99-f3b8f2dbfedb" /> 
+| <img width="492" height="573" alt="image" src="https://github.com/user-attachments/assets/b8d01165-f952-439c-bd85-37bc359d7efa" />
  |
 | Tekan **Hapus** → muncul dialog *"Apakah anda yakin menghapus ini?"* → pilih **Ya** | Data terhapus dari database dan kembali ke halaman utama |
 
