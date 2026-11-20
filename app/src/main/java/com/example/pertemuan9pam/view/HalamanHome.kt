@@ -34,11 +34,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.myroomsiswa.R
-import com.example.myroomsiswa.room.Siswa
-import com.example.myroomsiswa.view.route.DestinasiHome
-import com.example.myroomsiswa.viewmodel.HomeViewModel
-import com.example.myroomsiswa.viewmodel.provider.PenyediaViewModel
 import com.example.pertemuan9_pam.R
 import com.example.pertemuan9pam.room.Siswa
 import com.example.pertemuan9pam.route.DestinasiHome
