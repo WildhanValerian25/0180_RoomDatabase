@@ -20,5 +20,5 @@ class OfflineRepositoriSiswa(private val siswaDao: SiswaDao) : RepositoriSiswa {
 
     // Tmbah 3 override
     override fun getSiswaStream(id: Int): Flow<Siswa?> = siswaDao.getSiswa(id)
-
+    override suspend fun deleteSiswa(siswa: Siswa) = siswaDao.delete(siswa
 }
