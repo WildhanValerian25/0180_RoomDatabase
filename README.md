@@ -47,7 +47,7 @@ Melanjutkan Activity sebelumnya dengan fitur lengkap **Create, Read, Update, dan
 
 | Konfirmasi Hapus | Setelah Data Dihapus |
 |:---:|:---:|
-| <img width="230" alt="Konfirmasi hapus" src="screenshots/hapus_konfirmasi.png" /> | <img width="230" alt="Setelah dihapus" src="screenshots/hapus_setelah.png" /> |
+| <img width="230" alt="Konfirmasi hapus" src="TEMPEL_LINK_FOTO_DIALOG" /> | <img width="230" alt="Setelah dihapus" src="TEMPEL_LINK_FOTO_KOSONG" /> |
 | Tekan **Hapus** → muncul dialog *"Apakah anda yakin menghapus ini?"* → pilih **Ya** | Data terhapus dari database dan kembali ke halaman utama |
 
 </div>
