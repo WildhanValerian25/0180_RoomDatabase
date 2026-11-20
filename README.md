@@ -48,7 +48,7 @@ Melanjutkan Activity sebelumnya dengan fitur lengkap **Create, Read, Update, dan
 | Konfirmasi Hapus | Setelah Data Dihapus |
 |:---:|:---:|
 | <img width="230" alt="Konfirmasi hapus" src="LINK_HAPUS_1" /> | <img width="230" alt="Setelah dihapus" src="LINK_HAPUS_2" /> |
-| Dialog konfirmasi sebelum menghapus | Data hilang dari daftar siswa |
+| Tekan **Hapus** → muncul dialog *"Apakah anda yakin menghapus ini?"* → pilih **Ya** | Data terhapus dari database dan kembali ke halaman utama |
 
 </div>
 
