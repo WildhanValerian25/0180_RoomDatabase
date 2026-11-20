@@ -11,6 +11,9 @@ dibangun dengan **Kotlin** dan **Jetpack Compose** dengan arsitektur **MVVM**.
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Room](https://img.shields.io/badge/Room%20Database-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Material 3](https://img.shields.io/badge/Material%203-757575?style=for-the-badge&logo=materialdesign&logoColor=white)
+<img width="495" height="581" alt="image" src="https://github.com/user-attachments/assets/0aceb6b7-3c17-4d80-bfaf-90d3cd2e8f22" />
+<img width="497" height="581" alt="image" src="https://github.com/user-attachments/assets/b832acd7-a38c-48c6-b8dd-55340fb2aa33" />
+
 
 </div>
 
